@@ -1,0 +1,12 @@
+cmake -DCMAKE_PREFIX_PATH=/home/marcelo/Dropbox/Udacity/cpp_nanodegree/P0267_RefImpl/Debug/usr/local/lib/cmake/io2d/
+
+
+cd P0267_RefImpl
+mkdir Debug
+cd Debug
+cmake --config Debug "-DCMAKE_BUILD_TYPE=Debug" ..
+cmake --build .
+make DESTDIR=./ install
+
+
+The DESTDIR of io2d should be given through -DCMAKE_PREFIX_PATH to the main project cmake 
