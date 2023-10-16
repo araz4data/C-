@@ -16,7 +16,7 @@ The project's executable is called imageProcess and needs 5 arguments from comma
  
 __path_to_input_directory__: Full or relative path to input image folder. Default value of "../inputImages" is set in `main.cpp`
 
-__path_to_output_directory__: Full or relative path to segmented output image folder. Default value of "../outputImages" is set in `main.cpp`
+__path_to_output_directory__: Full or relative path to segmented output image folder. Default value of "../outputImages" is set in `main.cpp`.
 
 __result_type__: This is set either segmented output images to be saved and showed side by side (combined option) the original image or just the segmented images are only showed. Default value of "combined" is set in `main.cpp`. Only 2 options of "combined" or "segmented" will be processed.
 
