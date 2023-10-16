@@ -71,7 +71,7 @@ make
 All four key requirements have been followed in this project
 
 ### Loops, Functions, I/O
-The project code is clearly organized into functions. The project reads data from an external file or writes data to a file as part of the necessary operation of the program. The project accepts input from a user as part of the necessary operation of the program.
+The project's code is clearly organized into functions. The project reads data from an external file or writes data to a file as part of the necessary operation of the program. The project accepts input from a user as part of the necessary operation of the program.
 
 ### Object Oriented Programming
 The project accepts input from a user as part of the necessary operation of the program. All class data members are explicitly specified as public, protected, or private. Logical inheritance hierarchies are used to process images. 
